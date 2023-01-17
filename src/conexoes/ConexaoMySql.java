@@ -28,7 +28,6 @@ public class ConexaoMySql {
     private String usuario = "nsoft";
     private String senha = "Jos3@Luiz";
 
-
     public ConexaoMySql() {
     }
 
@@ -50,7 +49,7 @@ public class ConexaoMySql {
             Class.forName("com.mysql.jdbc.Driver").newInstance();
 
             //local do banco, nome do banco, usuario e senha
-            String url = "jdbc:mysql://" + servidor + "/" + nomeDoBanco+ "?autoReconnect=true&useSSL=false";
+            String url = "jdbc:mysql://" + servidor + "/" + nomeDoBanco + "?autoReconnect=true&useSSL=false";
             this.setCon((Connection) DriverManager.getConnection(url, usuario, senha));
 
             //se ocorrer tudo bem, ou seja, se conectar a linha a segui é executada

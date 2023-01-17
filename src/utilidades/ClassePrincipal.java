@@ -16,14 +16,14 @@ public class ClassePrincipal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        try {
-            UIManager.put("Synthetica.window.decoration", Boolean.FALSE);
-            UIManager.setLookAndFeel(new SyntheticaPlainLookAndFeel());
-            (new LoginView()).setVisible(true);
-        } catch (ParseException | UnsupportedLookAndFeelException erro) {
-            erro.printStackTrace();
-        }
-
+//        try {
+//            UIManager.put("Synthetica.window.decoration", Boolean.FALSE);
+//            UIManager.setLookAndFeel(new SyntheticaPlainLookAndFeel());
+//            (new LoginView()).setVisible(true);
+//        } catch (ParseException | UnsupportedLookAndFeelException erro) {
+//            erro.printStackTrace();
+//        }
+new LoginView().setVisible(true);
         /*
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {

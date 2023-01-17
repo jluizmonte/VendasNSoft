@@ -1,15 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package utilidades;
 
-import de.javasoft.plaf.synthetica.SyntheticaAluOxideLookAndFeel;
 import java.io.*;
-import javax.swing.UIManager;
-import jdk.nashorn.internal.codegen.CompilerConstants;
-import view.LoginView;
 
 /**
  *

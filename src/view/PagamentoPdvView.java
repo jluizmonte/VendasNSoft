@@ -49,6 +49,7 @@ public class PagamentoPdvView extends javax.swing.JDialog {
         calcularPagamento();
         limparCampos();
         informarFormaPagamento();
+        jtfSubtotal.setText("50");
     }
 
     /**
